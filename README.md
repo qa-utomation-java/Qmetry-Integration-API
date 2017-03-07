@@ -2,7 +2,8 @@
 This API wraps Qmetry REST APIs to programmatically update test case results to Qmetry.  This API makes it very easy to integrate with Qmetry to publish test results. This would be ideal if you wanted a mechanism to update test results from your automated test scripts. 
 
 Some Steps to execute before you can use the API:
-1. Import all dependencies. I used gradle as my build tool and below is how my dependencies block looks: 
+
+1. Import all dependencies. I used gradle as my build tool and below are the dependencies that are needed: 
 
 dependencies {
     compile group: 'com.sun.jersey', name: 'jersey-client', version: '1.18'
