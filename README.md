@@ -16,6 +16,8 @@ The method that is used to update a test case result is the following:
 QmetryPipeLine.updateTestCaseResult(testSuiteRunId, entityId, testStatus)
 
 testSuiteRunId - when a test suite is linked to a platform, the test suite run id can be retrieved from the Qmetry UI.  
+
 entityId - this is the id of the actual test case
+
 testStatus - available values are QmetryTestCase.PASS, QmetryTestCase.FAIL, QmetryTestCase.NOT_RUN, QmetryTestCase.BLOCKED, QmetryTestCase.NOT_APPLICABE
 
